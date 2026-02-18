@@ -30,3 +30,6 @@ Thumbs.db
 
 # Session files
 session-*.md
+
+# Root screenshots (originals)
+/screen.*

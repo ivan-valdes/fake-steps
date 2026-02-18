@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ivan-valdes/fake-steps/master/app/src/main/res/drawable/ic_launcher_foreground.xml" width="120" alt="FakeSteps icon"/>
+  <img src="docs/icon.svg" width="120" alt="FakeSteps icon"/>
 </p>
 
 <h1 align="center">FakeSteps</h1>
@@ -12,7 +12,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/Platform-Android-green.svg" alt="Platform: Android">
   <img src="https://img.shields.io/badge/API-28%2B-brightgreen.svg" alt="API 28+">
-  <a href="https://buymeacoffee.com/PLACEHOLDER"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
+  <a href="https://buymeacoffee.com/ivaldes"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
 </p>
 
 ---
@@ -21,9 +21,8 @@ FakeSteps is a simple Android app that writes fake step and walking session data
 
 ## Screenshot
 
-<!-- Replace with your actual screenshot -->
 <p align="center">
-  <img src="docs/screenshot.png" width="300" alt="FakeSteps screenshot"/>
+  <img src="docs/screen.jpg" width="300" alt="FakeSteps screenshot"/>
 </p>
 
 ## Features
@@ -109,7 +108,7 @@ Contributions are welcome! Feel free to open issues and pull requests.
 
 If you find FakeSteps useful, consider supporting the project:
 
-<a href="https://buymeacoffee.com/PLACEHOLDER">
+<a href="https://buymeacoffee.com/ivaldes">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" alt="Buy Me a Coffee">
 </a>
 
