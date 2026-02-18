@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - FakeSteps</title>
+    <meta name="description" content="Privacy Policy for the FakeSteps Android application.">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #0a0a0f;
+            color: #e8e8ef;
+            line-height: 1.7;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        a {
+            color: #9b82fc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #9898a8;
+            font-size: 0.9rem;
+        }
+
+        .back-link:hover {
+            color: #e8e8ef;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        .last-updated {
+            color: #9898a8;
+            font-size: 0.85rem;
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.01em;
+        }
+
+        p {
+            color: #c8c8d8;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            color: #c8c8d8;
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        .highlight {
+            background: #1a1a26;
+            border: 1px solid #2a2a3a;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .highlight p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #2a2a3a;
+            text-align: center;
+            color: #9898a8;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="./" class="back-link">&larr; Back to FakeSteps</a>
+
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last updated: February 18, 2026</p>
+
+    <p>
+        This Privacy Policy describes how <strong>FakeSteps</strong> ("the App") handles your data.
+        FakeSteps is an open-source Android application developed by ivan-valdes.
+    </p>
+
+    <div class="highlight">
+        <p>
+            <strong>In short:</strong> FakeSteps does not collect, store, or transmit any personal data.
+            All data stays on your device.
+        </p>
+    </div>
+
+    <h2>What Data the App Writes</h2>
+    <p>
+        FakeSteps writes the following types of records to
+        <a href="https://health.google/health-connect/">Health Connect</a>
+        on your device:
+    </p>
+    <ul>
+        <li><strong>Step count records</strong> (<code>StepsRecord</code>) -- the number of steps you configure in the app.</li>
+        <li><strong>Exercise session records</strong> (<code>ExerciseSessionRecord</code>) -- a walking session with the duration you configure.</li>
+    </ul>
+    <p>
+        These records are written locally to Health Connect. The App does not read any data from Health Connect.
+    </p>
+
+    <h2>Data Collection</h2>
+    <p>FakeSteps does <strong>not</strong> collect any data. Specifically:</p>
+    <ul>
+        <li>No personal information is collected</li>
+        <li>No usage analytics or telemetry is collected</li>
+        <li>No crash reports are collected</li>
+        <li>No device identifiers are collected</li>
+        <li>No location data is collected</li>
+    </ul>
+
+    <h2>Data Transmission</h2>
+    <p>
+        FakeSteps does <strong>not</strong> transmit any data to external servers.
+        The App does not make any network requests. It operates entirely offline.
+    </p>
+
+    <h2>Data Storage</h2>
+    <p>
+        The App stores your configuration preferences (step count, walk duration, scheduled time)
+        locally on your device using Android DataStore. This data never leaves your device.
+    </p>
+
+    <h2>Third-Party Services</h2>
+    <p>
+        FakeSteps does not integrate with any third-party services, SDKs, or analytics platforms.
+        The only external integration is with Health Connect, which is a system-level Android API
+        managed by Google on your device.
+    </p>
+
+    <h2>Advertising</h2>
+    <p>FakeSteps does not display any advertisements.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>
+        FakeSteps does not knowingly collect any information from children.
+        The App does not collect information from anyone.
+    </p>
+
+    <h2>Health Connect Permissions</h2>
+    <p>FakeSteps requests the following Health Connect permissions:</p>
+    <ul>
+        <li><strong>Write Steps</strong> -- to create step count records</li>
+        <li><strong>Write Exercise</strong> -- to create walking exercise session records</li>
+    </ul>
+    <p>
+        These permissions are used solely for writing the fake step and exercise data you configure.
+        No read permissions are requested.
+    </p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+        If this Privacy Policy is updated, the changes will be posted on this page with an updated
+        "Last updated" date. Since FakeSteps is open source, all changes are also visible in the
+        <a href="https://github.com/ivan-valdes/fake-steps">GitHub repository</a>.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+        If you have questions about this Privacy Policy, you can open an issue on the
+        <a href="https://github.com/ivan-valdes/fake-steps/issues">GitHub repository</a>.
+    </p>
+
+    <footer>
+        &copy; 2026 ivan-valdes. FakeSteps is released under the
+        <a href="https://github.com/ivan-valdes/fake-steps/blob/master/LICENSE">MIT License</a>.
+    </footer>
+</div>
+
+</body>
+</html>
