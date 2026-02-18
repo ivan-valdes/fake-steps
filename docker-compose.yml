@@ -1,0 +1,11 @@
+services:
+  builder:
+    build: .
+    volumes:
+      - .:/app
+      - gradle-cache:/root/.gradle
+    working_dir: /app
+    command: ./gradlew assembleDebug
+
+volumes:
+  gradle-cache:

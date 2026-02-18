@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Footstep icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,38c-2,0 -3.5,1.5 -3.5,3.5v7c0,2 1.5,3.5 3.5,3.5s3.5,-1.5 3.5,-3.5v-7c0,-2 -1.5,-3.5 -3.5,-3.5z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,35c-2,0 -3.5,1.5 -3.5,3.5v10c0,2 1.5,3.5 3.5,3.5s3.5,-1.5 3.5,-3.5v-10c0,-2 -1.5,-3.5 -3.5,-3.5z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,38c-2,0 -3.5,1.5 -3.5,3.5v7c0,2 1.5,3.5 3.5,3.5s3.5,-1.5 3.5,-3.5v-7c0,-2 -1.5,-3.5 -3.5,-3.5z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,42c-1.5,0 -3,1.5 -3,3v5c0,1.5 1.5,3 3,3s3,-1.5 3,-3v-5c0,-1.5 -1.5,-3 -3,-3z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,55c-8,0 -15,3 -15,7v4h30v-4c0,-4 -7,-7 -15,-7z"/>
+</vector>
